@@ -12,6 +12,15 @@
 		E4EA418F1E16E8E800434D1E /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EA418D1E16E8E800434D1E /* Document.xib */; };
 		E4EA41911E16E8E800434D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EA41901E16E8E800434D1E /* Assets.xcassets */; };
 		E4EA41941E16E8E800434D1E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EA41921E16E8E800434D1E /* MainMenu.xib */; };
+		E4EA41A41E16E90F00434D1E /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EA419B1E16E90F00434D1E /* Key.swift */; };
+		E4EA41A51E16E90F00434D1E /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EA419C1E16E90F00434D1E /* KeyboardView.swift */; };
+		E4EA41A61E16E90F00434D1E /* KeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EA419D1E16E90F00434D1E /* KeyData.swift */; };
+		E4EA41A71E16E90F00434D1E /* KVBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EA419E1E16E90F00434D1E /* KVBViewController.swift */; };
+		E4EA41A81E16E90F00434D1E /* KVBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EA419F1E16E90F00434D1E /* KVBViewController.xib */; };
+		E4EA41A91E16E90F00434D1E /* KVBWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EA41A01E16E90F00434D1E /* KVBWindowController.swift */; };
+		E4EA41AA1E16E90F00434D1E /* KVBWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EA41A11E16E90F00434D1E /* KVBWindowController.xib */; };
+		E4EA41AB1E16E90F00434D1E /* MIDIValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EA41A21E16E90F00434D1E /* MIDIValues.swift */; };
+		E4EA41AC1E16E90F00434D1E /* ObservablePropertiesListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EA41A31E16E90F00434D1E /* ObservablePropertiesListing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		E4EA41901E16E8E800434D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4EA41931E16E8E800434D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E4EA41951E16E8E800434D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EA419B1E16E90F00434D1E /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		E4EA419C1E16E90F00434D1E /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		E4EA419D1E16E90F00434D1E /* KeyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyData.swift; sourceTree = "<group>"; };
+		E4EA419E1E16E90F00434D1E /* KVBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVBViewController.swift; sourceTree = "<group>"; };
+		E4EA419F1E16E90F00434D1E /* KVBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVBViewController.xib; sourceTree = "<group>"; };
+		E4EA41A01E16E90F00434D1E /* KVBWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVBWindowController.swift; sourceTree = "<group>"; };
+		E4EA41A11E16E90F00434D1E /* KVBWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVBWindowController.xib; sourceTree = "<group>"; };
+		E4EA41A21E16E90F00434D1E /* MIDIValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIValues.swift; sourceTree = "<group>"; };
+		E4EA41A31E16E90F00434D1E /* ObservablePropertiesListing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservablePropertiesListing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,15 @@
 				E4EA41891E16E8E800434D1E /* AppDelegate.swift */,
 				E4EA418B1E16E8E800434D1E /* Document.swift */,
 				E4EA418D1E16E8E800434D1E /* Document.xib */,
+				E4EA419D1E16E90F00434D1E /* KeyData.swift */,
+				E4EA41A01E16E90F00434D1E /* KVBWindowController.swift */,
+				E4EA41A11E16E90F00434D1E /* KVBWindowController.xib */,
+				E4EA419E1E16E90F00434D1E /* KVBViewController.swift */,
+				E4EA419F1E16E90F00434D1E /* KVBViewController.xib */,
+				E4EA419C1E16E90F00434D1E /* KeyboardView.swift */,
+				E4EA41A21E16E90F00434D1E /* MIDIValues.swift */,
+				E4EA419B1E16E90F00434D1E /* Key.swift */,
+				E4EA41A31E16E90F00434D1E /* ObservablePropertiesListing.swift */,
 				E4EA41901E16E8E800434D1E /* Assets.xcassets */,
 				E4EA41921E16E8E800434D1E /* MainMenu.xib */,
 				E4EA41951E16E8E800434D1E /* Info.plist */,
@@ -124,6 +151,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EA41AA1E16E90F00434D1E /* KVBWindowController.xib in Resources */,
+				E4EA41A81E16E90F00434D1E /* KVBViewController.xib in Resources */,
 				E4EA41911E16E8E800434D1E /* Assets.xcassets in Resources */,
 				E4EA418F1E16E8E800434D1E /* Document.xib in Resources */,
 				E4EA41941E16E8E800434D1E /* MainMenu.xib in Resources */,
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EA41A91E16E90F00434D1E /* KVBWindowController.swift in Sources */,
 				E4EA418C1E16E8E800434D1E /* Document.swift in Sources */,
+				E4EA41A51E16E90F00434D1E /* KeyboardView.swift in Sources */,
+				E4EA41A71E16E90F00434D1E /* KVBViewController.swift in Sources */,
 				E4EA418A1E16E8E800434D1E /* AppDelegate.swift in Sources */,
+				E4EA41AC1E16E90F00434D1E /* ObservablePropertiesListing.swift in Sources */,
+				E4EA41A61E16E90F00434D1E /* KeyData.swift in Sources */,
+				E4EA41AB1E16E90F00434D1E /* MIDIValues.swift in Sources */,
+				E4EA41A41E16E90F00434D1E /* Key.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
